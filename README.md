@@ -1,0 +1,1 @@
+This repository hosts the scripts and setup for learning based power modeling of CPUs. 'BOOM' and 'RI5CY' directories has power modeling scripts for the BOOM and RI5CY cores respectively. 'common' directory has vcd post processing script.
