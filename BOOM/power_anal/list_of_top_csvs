@@ -1,0 +1,10 @@
+dhrystone.power_hier.avg.csv
+median.power_hier.avg.csv
+mm.power_hier.avg.csv
+mt-matmul.power_hier.avg.csv
+mt-vvadd.power_hier.avg.csv
+multiply.power_hier.avg.csv
+qsort.power_hier.avg.csv
+spmv.power_hier.avg.csv
+towers.power_hier.avg.csv
+vvadd.power_hier.avg.csv

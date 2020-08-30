@@ -1,0 +1,5 @@
+source alias_set_to_local.sh
+mkdir -p frontend__fetch_controller
+vcd2csv ../../BOOM/simulation/frontend/dhrystone.frontend.vcd frontend__fetch_controller_signal_list frontend__fetch_controller_dhrystone.csv
+perl add_benchmark_name.pl frontend__fetch_controller_dhrystone.csv frontend__fetch_controller_dhrystone.name_added.csv dhrystone
+mv  frontend__fetch_controller_dhrystone.name_added.csv frontend__fetch_controller_dhrystone.csv

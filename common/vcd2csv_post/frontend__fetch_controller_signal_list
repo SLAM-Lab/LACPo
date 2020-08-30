@@ -1,0 +1,859 @@
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.clock CLOCK
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode.io_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode.io_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode.io_is_br
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode.io_is_call
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode.io_is_jal
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode.io_is_jalr
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode.io_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode.io_target [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_1.io_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_1.io_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_1.io_is_br
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_1.io_is_call
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_1.io_is_jal
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_1.io_is_jalr
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_1.io_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_1.io_target [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_2.io_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_2.io_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_2.io_is_br
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_2.io_is_call
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_2.io_is_jal
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_2.io_is_jalr
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_2.io_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_2.io_target [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_3.io_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_3.io_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_3.io_is_br
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_3.io_is_call
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_3.io_is_jal
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_3.io_is_jalr
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_3.io_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.BranchDecode_3.io_target [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.RVCExpander.io_in [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.RVCExpander.io_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.RVCExpander_1.io_in [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.RVCExpander_1.io_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.RVCExpander_2.io_in [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.RVCExpander_2.io_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.RVCExpander_3.io_in [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.RVCExpander_3.io_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_aligned_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_bpd_resp_bits_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_bpd_resp_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_br_targs_0 [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_br_targs_1 [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_br_targs_2 [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_br_targs_3 [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_resp_bits_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_resp_bits_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_resp_bits_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_resp_bits_target [38:0] [38:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_resp_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_update_bits_bpd_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_update_bits_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_update_bits_is_edge
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_update_bits_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_update_bits_pc [38:0] [38:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_update_bits_target [38:0] [38:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_btb_update_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_fetch_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_inst_mask_0
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_inst_mask_1
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_inst_mask_2
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_inst_mask_3
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_br_0
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_br_1
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_br_2
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_br_3
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_call_0
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_call_1
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_call_2
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_call_3
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_jal_0
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_jal_1
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_jal_2
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_jal_3
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_jr_0
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_jr_1
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_jr_2
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_jr_3
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_rvc_0
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_rvc_1
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_rvc_2
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_is_rvc_3
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_jal_targs_0 [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_jal_targs_1 [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_jal_targs_2 [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_jal_targs_3 [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_ras_update_bits_return_addr [38:0] [38:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_ras_update_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_req_bits_addr [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_req_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_req_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.bchecker.io_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_0_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_10_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_11_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_12_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_13_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_14_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_15_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_1_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_2_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_3_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_4_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_5_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_6_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_7_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_8_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.fb_uop_ram_9_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.head [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_clear
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_bp_debug_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_bp_xcpt_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_csr_addr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_br_type [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_csr_cmd [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_fcn_dw
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_imm_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_is_load
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_is_sta
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_is_std
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_op1_sel [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_op2_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_op_fcn [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ctrl_rf_wen
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_debug_wdata [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_iw_p1_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_iw_p2_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_iw_state [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_rxq_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_stat_bpd_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_stat_bpd_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_stat_brjmp_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_stat_btb_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_stat_btb_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_bits_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_bp_debug_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_bp_xcpt_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_csr_addr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_br_type [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_csr_cmd [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_fcn_dw
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_imm_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_is_load
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_is_sta
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_is_std
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_op1_sel [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_op2_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_op_fcn [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ctrl_rf_wen
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_debug_wdata [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_iw_p1_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_iw_p2_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_iw_state [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_rxq_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_stat_bpd_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_stat_bpd_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_stat_brjmp_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_stat_btb_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_stat_btb_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_bits_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_bits_uops_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_ready
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_deq_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_0_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_1_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_2_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_bpu_info_3_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_debug_events_1_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_debug_events_2_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_debug_events_3_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_exp_insts_0 [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_exp_insts_1 [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_exp_insts_2 [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_exp_insts_3 [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_insts_0 [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_insts_1 [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_insts_2 [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_insts_3 [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_mask [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_xcpt_ma_if_oh [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_bits_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_ready
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.io_enq_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.maybe_full
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.fb.tail [15:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_0_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_0_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_0_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_0_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_0_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_10_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_10_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_10_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_10_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_10_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_11_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_11_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_11_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_11_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_11_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_12_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_12_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_12_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_12_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_12_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_13_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_13_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_13_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_13_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_13_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_14_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_14_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_14_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_14_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_14_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_15_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_15_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_15_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_15_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_15_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_16_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_16_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_16_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_16_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_16_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_17_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_17_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_17_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_17_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_17_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_18_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_18_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_18_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_18_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_18_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_19_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_19_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_19_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_19_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_19_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_1_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_1_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_1_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_1_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_1_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_20_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_20_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_20_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_20_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_20_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_21_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_21_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_21_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_21_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_21_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_22_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_22_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_22_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_22_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_22_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_23_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_23_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_23_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_23_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_23_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_24_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_24_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_24_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_24_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_24_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_25_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_25_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_25_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_25_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_25_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_26_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_26_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_26_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_26_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_26_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_27_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_27_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_27_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_27_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_27_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_28_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_28_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_28_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_28_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_28_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_29_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_29_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_29_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_29_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_29_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_2_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_2_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_2_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_2_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_2_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_30_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_30_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_30_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_30_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_30_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_31_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_31_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_31_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_31_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_31_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_3_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_3_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_3_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_3_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_3_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_4_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_4_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_4_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_4_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_4_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_5_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_5_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_5_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_5_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_5_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_6_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_6_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_6_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_6_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_6_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_7_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_7_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_7_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_7_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_7_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_8_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_8_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_8_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_8_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_8_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_9_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_9_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_9_executed
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_9_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.cfi_info_9_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.commit_ptr [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bim_update_bits_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bim_update_bits_cntr_value [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bim_update_bits_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bim_update_bits_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bim_update_bits_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bim_update_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bpd_update_bits_fetch_pc [38:0] [38:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bpd_update_bits_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bpd_update_bits_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bpd_update_bits_miss_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bpd_update_bits_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_bpd_update_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_brinfo_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_brinfo_cfi_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_brinfo_ftq_idx [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_brinfo_mispredict
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_brinfo_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_brinfo_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_com_fetch_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_com_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_deq_bits [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_deq_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_bits_bim_info_br_seen
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_bits_bim_info_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_bits_bim_info_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_bits_bim_info_value [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_bits_bpd_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_bits_fetch_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_bits_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_ready
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_enq_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_flush_bits_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_flush_bits_flush_typ [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_flush_bits_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_flush_bits_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_flush_bits_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_flush_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_get_ftq_pc_fetch_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_get_ftq_pc_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_get_ftq_pc_next_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_get_ftq_pc_next_val
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_restore_history_bits_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_restore_history_bits_taken
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_restore_history_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_take_pc_bits_addr [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.io_take_pc_valid
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.maybe_full
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.value [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.fetch_controller.ftq.value_1 [4:0]
