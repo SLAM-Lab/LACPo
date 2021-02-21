@@ -1,0 +1,9 @@
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.W0_clk CLOCK
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.R0_addr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.R0_en
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.R0_data_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.R0_data_counter [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.W0_addr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.W0_en
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.W0_data_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.W0_data_counter [1:0]

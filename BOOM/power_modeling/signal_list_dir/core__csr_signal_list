@@ -1,0 +1,10 @@
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_rw_wdata [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.clock CLOCK
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_decode_0_csr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_decode_1_csr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_counters_0_inc [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_counters_1_inc [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_counters_2_inc [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_counters_3_inc [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_counters_4_inc [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.csr.io_counters_5_inc [1:0]

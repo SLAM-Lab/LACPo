@@ -1,0 +1,10 @@
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.clock CLOCK
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_remap_reqs_0_ldst [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_remap_reqs_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_remap_reqs_1_ldst [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_remap_reqs_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_ren_br_tags_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_ren_br_tags_0_bits [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_ren_br_tags_1_bits [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_ren_br_tags_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rename_stage.maptable.io_brinfo_mispredict

@@ -1,0 +1,17 @@
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.clock CLOCK
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_reqs_0
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_reqs_1
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_alloc_pregs_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_alloc_pregs_0_bits [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_alloc_pregs_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_alloc_pregs_1_bits [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_dealloc_pregs_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_dealloc_pregs_0_bits [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_dealloc_pregs_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_dealloc_pregs_1_bits [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_ren_br_tags_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_ren_br_tags_0_bits [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_ren_br_tags_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_ren_br_tags_1_bits [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_brinfo_mispredict
+TestDriver.testHarness.TestHarness.boom_tile.core.fp_rename_stage.freelist.io_brinfo_tag [2:0]

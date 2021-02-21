@@ -1,0 +1,22 @@
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.clock CLOCK
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_0_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_0_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_1_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_1_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_2_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_2_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0] 
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_3_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_3_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_4_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_4_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_5_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_read_ports_5_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_0_bits_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_0_bits_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_1_bits_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_1_bits_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_2_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_2_bits_addr [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.iregfile.io_write_ports_2_bits_data [63:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0] [63:48] [47:32] [31:16] [15:0]

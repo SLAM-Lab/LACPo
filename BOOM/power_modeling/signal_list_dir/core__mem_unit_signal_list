@@ -1,0 +1,5 @@
+TestDriver.testHarness.TestHarness.boom_tile.core.mem_unit.clock CLOCK
+TestDriver.testHarness.TestHarness.boom_tile.core.mem_unit.io_req_bits_rs1_data [64:0] [64:32] [31:0] [64:48] [47:32] [31:16] [15:0] [64:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.mem_unit.io_req_bits_rs2_data [64:0] [64:32] [31:0] [64:48] [47:32] [31:16] [15:0] [64:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.mem_unit.io_req_bits_uop_uopc [8:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.mem_unit.io_req_bits_uop_fu_code [9:0]

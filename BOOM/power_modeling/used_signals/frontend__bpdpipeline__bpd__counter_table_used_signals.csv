@@ -1,0 +1,6 @@
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.R0_en
+d_TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.R0_data_cfi_idx[1:0]
+d_TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.R0_data_counter[1:0]
+TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.W0_en
+d_TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.W0_data_cfi_idx[1:0]
+d_TestDriver.testHarness.TestHarness.boom_tile.frontend.bpdpipeline.bpd.counter_table.W0_data_counter[1:0]

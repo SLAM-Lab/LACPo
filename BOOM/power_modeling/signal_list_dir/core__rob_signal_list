@@ -1,0 +1,470 @@
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.clock CLOCK
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_valids_0
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_valids_1
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_uopc [8:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_iq_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_fu_code [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_br_type [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_op1_sel [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_op2_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_imm_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_op_fcn [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_fcn_dw
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_rf_wen
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_csr_cmd [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_is_load
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_is_sta
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ctrl_is_std
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_iw_state [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_iw_p1_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_iw_p2_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_allocate_brtag
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_br_or_jmp
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_jump
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_jal
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_ret
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_call
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_mask [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_tag [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_stat_brjmp_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_stat_btb_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_stat_btb_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_stat_bpd_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_stat_bpd_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_imm_packed [19:0] [19:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_csr_addr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ldq_idx [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_stq_idx [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_rxq_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_prs1 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_prs2 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_prs3 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_prs1_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_prs2_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_prs3_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_stale_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_exception
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_exc_cause [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_bypassable
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_mem_cmd [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_mem_size [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_mem_signed
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_fence
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_fencei
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_store
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_amo
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_load
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_sys_pc2epc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_is_unique
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_flush_on_commit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ldst [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_lrs1 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_lrs2 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_lrs3 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_ldst_val
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_dst_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_lrs1_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_lrs2_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_frs3_en
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_fp_val
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_fp_single
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_bp_debug_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_bp_xcpt_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_debug_wdata [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_0_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_uopc [8:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_iq_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_fu_code [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_br_type [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_op1_sel [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_op2_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_imm_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_op_fcn [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_fcn_dw
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_rf_wen
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_csr_cmd [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_is_load
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_is_sta
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ctrl_is_std
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_iw_state [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_iw_p1_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_iw_p2_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_allocate_brtag
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_br_or_jmp
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_jump
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_jal
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_ret
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_call
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_mask [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_tag [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_stat_brjmp_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_stat_btb_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_stat_btb_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_stat_bpd_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_stat_bpd_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_imm_packed [19:0] [19:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_csr_addr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ldq_idx [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_stq_idx [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_rxq_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_prs1 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_prs2 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_prs3 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_prs1_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_prs2_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_prs3_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_stale_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_exception
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_exc_cause [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_bypassable
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_mem_cmd [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_mem_size [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_mem_signed
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_fence
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_fencei
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_store
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_amo
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_load
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_sys_pc2epc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_is_unique
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_flush_on_commit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ldst [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_lrs1 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_lrs2 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_lrs3 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_ldst_val
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_dst_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_lrs1_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_lrs2_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_frs3_en
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_fp_val
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_fp_single
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_bp_debug_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_bp_xcpt_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_debug_wdata [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_uops_1_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_enq_partial_stall
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_xcpt_fetch_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_rob_tail_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_brinfo_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_brinfo_mispredict
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_brinfo_mask [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_brinfo_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_brinfo_btb_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_brinfo_btb_mispredict
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_brinfo_bpd_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_brinfo_bpd_mispredict
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_0_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_0_bits_uop_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_1_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_1_bits_uop_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_2_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_2_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_2_bits_uop_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_3_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_3_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_3_bits_uop_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_4_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_4_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_wb_resps_4_bits_uop_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lsu_clr_bsy_valid_0
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lsu_clr_bsy_valid_1
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lsu_clr_bsy_rob_idx_0 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lsu_clr_bsy_rob_idx_1 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lsu_clr_unsafe_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lsu_clr_unsafe_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_valids_0
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_valids_1
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_valids_2
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_valids_3
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_valids_4
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_wdata_0 [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_wdata_1 [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_wdata_2 [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_wdata_3 [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_debug_wb_wdata_4 [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_fflags_0_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_fflags_0_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_fflags_0_bits_flags [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_fflags_1_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_fflags_1_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_fflags_1_bits_flags [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lxcpt_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lxcpt_bits_uop_br_mask [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lxcpt_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lxcpt_bits_cause [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_lxcpt_bits_badvaddr [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_bxcpt_bits_uop_br_mask [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_bxcpt_bits_uop_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_bxcpt_bits_badvaddr [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_valids_0
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_valids_1
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_uopc [8:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_iq_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_fu_code [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_br_type [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_op1_sel [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_op2_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_imm_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_op_fcn [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_fcn_dw
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_rf_wen
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_csr_cmd [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_is_load
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_is_sta
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ctrl_is_std
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_iw_state [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_iw_p1_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_iw_p2_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_allocate_brtag
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_br_or_jmp
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_jump
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_jal
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_ret
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_call
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_mask [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_tag [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_stat_brjmp_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_stat_btb_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_stat_btb_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_stat_bpd_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_stat_bpd_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_imm_packed [19:0] [19:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_csr_addr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ldq_idx [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_stq_idx [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_rxq_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_prs1 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_prs2 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_prs3 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_prs1_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_prs2_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_prs3_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_stale_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_exception
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_exc_cause [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_bypassable
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_mem_cmd [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_mem_size [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_mem_signed
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_fence
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_fencei
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_store
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_amo
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_load
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_sys_pc2epc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_is_unique
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_flush_on_commit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ldst [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_lrs1 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_lrs2 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_lrs3 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_ldst_val
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_dst_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_lrs1_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_lrs2_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_frs3_en
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_fp_val
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_fp_single
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_bp_debug_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_bp_xcpt_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_debug_wdata [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_0_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_uopc [8:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_debug_inst [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_debug_pc [39:0] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_iq_type [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_fu_code [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_br_type [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_op1_sel [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_op2_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_imm_sel [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_op_fcn [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_fcn_dw
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_rf_wen
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_csr_cmd [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_is_load
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_is_sta
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ctrl_is_std
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_iw_state [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_iw_p1_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_iw_p2_poisoned
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_allocate_brtag
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_br_or_jmp
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_jump
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_jal
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_ret
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_call
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_mask [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_tag [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_btb_blame
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_btb_hit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_btb_taken
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_bpd_blame
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_bpd_hit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_bpd_taken
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_bim_resp_rowdata [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_bim_resp_entry_idx [9:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_bpd_resp_takens [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_bpd_resp_history [22:0] [22:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_br_prediction_bpd_resp_info [26:0] [26:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_stat_brjmp_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_stat_btb_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_stat_btb_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_stat_bpd_made_pred
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_stat_bpd_mispredicted
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_cfi_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_imm_packed [19:0] [19:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_csr_addr [11:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_rob_idx [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ldq_idx [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_stq_idx [3:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_rxq_idx [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_prs1 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_prs2 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_prs3 [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_prs1_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_prs2_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_prs3_busy
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_stale_pdst [6:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_exception
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_exc_cause [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_bypassable
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_mem_cmd [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_mem_size [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_mem_signed
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_fence
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_fencei
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_store
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_amo
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_load
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_sys_pc2epc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_is_unique
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_flush_on_commit
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ldst [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_lrs1 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_lrs2 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_lrs3 [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_ldst_val
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_dst_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_lrs1_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_lrs2_rtype [1:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_frs3_en
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_fp_val
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_fp_single
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_xcpt_pf_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_xcpt_ae_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_replay_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_xcpt_ma_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_bp_debug_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_bp_xcpt_if
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_debug_wdata [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_uops_1_debug_events_fetch_seq [31:0] [31:16] [15:0] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_fflags_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_fflags_bits [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_rbk_valids_0
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_rbk_valids_1
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_rollback
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_st_mask_0
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_st_mask_1
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_ld_mask_0
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_commit_ld_mask_1
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_com_load_is_at_rob_head
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_com_xcpt_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_com_xcpt_bits_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_com_xcpt_bits_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_com_xcpt_bits_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_com_xcpt_bits_cause [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_com_xcpt_bits_badvaddr [63:0] [63:32] [31:0] [63:48] [47:32] [31:16] [15:0] [63:56] [55:48] [47:40] [39:32] [31:24] [23:16] [15:8] [7:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_csr_stall
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_flush_valid
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_flush_bits_ftq_idx [4:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_flush_bits_edge_inst
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_flush_bits_is_rvc
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_flush_bits_pc_lob [5:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_flush_bits_flush_typ [2:0]
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_empty
+TestDriver.testHarness.TestHarness.boom_tile.core.rob.io_ready
