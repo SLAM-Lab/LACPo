@@ -1,0 +1,125 @@
+# SimVision Command Script (Tue Mar 26 06:51:57 PM CDT 2019)
+#
+# Version 14.10.p001
+#
+# You can restore this configuration with:
+#
+#     simvision -input ex_stage.svcf
+#
+
+
+#
+# Preferences
+#
+preferences set toolbar-SimControl-WatchList {
+  usual
+  hide set_break
+  hide vplan
+}
+preferences set exportdlg-csvShowXEnable 1
+preferences set plugin-enable-svdatabrowser-new 1
+preferences set exportdlg-csvRadix bin
+preferences set exportdlg-csvDelayUnits ps
+preferences set exportdlg-startFormat csv
+preferences set exportdlg-csvPeriod 40
+preferences set exportdlg-file regfile
+preferences set toolbar-OperatingMode-WaveWindow {
+  usual
+  position -pos 4
+  name OperatingMode
+}
+preferences set plugin-enable-groupscope 0
+preferences set plugin-enable-interleaveandcompare 0
+preferences set exportdlg-csvTrigger period
+preferences set exportdlg-csvPeriodUnits ns
+preferences set exportdlg-csvOutputUnits ns
+
+#
+# Conditions
+#
+set expression {bus(tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.\operator_i[5] , tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.\operator_i[4] , tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.\operator_i[3] , tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.\operator_i[2] , tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.\operator_i[1] , tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.\operator_i[0] )}
+if {[catch {condition new -name  ALU_operator -expr $expression}] != ""} {
+    condition set -using ALU_operator -expr $expression
+}
+
+#
+# Mnemonic Maps
+#
+mmap new -reuse -name {Boolean as Logic} -radix %b -contents {{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}}
+mmap new -reuse -name {Example Map} -radix %x -contents {{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}}
+
+#
+# Waveform windows
+#
+if {[catch {window new WaveWindow -name "Waveform 1" -geometry 1536x770+0+31}] != ""} {
+    window geometry "Waveform 1" 1536x770+0+31
+}
+window target "Waveform 1" on
+waveform using {Waveform 1}
+waveform sidebar select designbrowser
+waveform set \
+    -primarycursor TimeA \
+    -signalnames name \
+    -signalwidth 175 \
+    -units ps \
+    -valuewidth 75
+waveform baseline set -time 0
+
+set id [waveform add -signals [subst  {
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.clk}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.rst_n}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.enable_i}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.enable_i}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.operator_i[2:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.short_subword_i}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.short_signed_i[1:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.op_a_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.op_b_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.op_c_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.imm_i[4:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.dot_signed_i[1:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.dot_op_a_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.dot_op_b_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.dot_op_c_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.result_o[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.multicycle_o}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.ready_o}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.ex_ready_i}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.mult_i.mulh_CS[2:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.operand_a_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.operand_b_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.operand_c_i[31:0]}]}
+	{[format {tb.top_i.core_region_i.\CORE.RISCV_CORE .ex_stage_i.alu_i.enable_i}]}
+	{[format {ALU_operator}]}
+	} ]]
+
+waveform xview limits 0 2000ps
+waveform set -signalfilterentry *en*
+waveform set -signalfilterentry op8
+waveform set -signalfilterentry op*
+waveform set -signalfilterentry *clk*
+waveform set -signalfilterentry *rst*
+waveform set -signalfilterentry *enab*
+waveform set -signalfilterentry *op*
+waveform set -signalfilterentry *oper*
+waveform set -signalfilterentry *shor*
+waveform set -signalfilterentry *op_*
+waveform set -signalfilterentry *imm*
+waveform set -signalfilterentry *dot*
+waveform set -signalfilterentry *res*
+waveform set -signalfilterentry *mult*
+waveform set -signalfilterentry *read*
+waveform set -signalfilter *mul*
+
+#
+# Waveform Window Links
+#
+
+#
+# Layout selection
+#
+

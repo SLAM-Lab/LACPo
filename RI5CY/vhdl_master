@@ -1,0 +1,12 @@
+pulpino-master/ips/apb_uart-pulpinov1/slib_clock_div.vhd
+pulpino-master/ips/apb_uart-pulpinov1/slib_counter.vhd
+pulpino-master/ips/apb_uart-pulpinov1/slib_edge_detect.vhd
+pulpino-master/ips/apb_uart-pulpinov1/slib_fifo.vhd
+pulpino-master/ips/apb_uart-pulpinov1/slib_input_filter.vhd
+pulpino-master/ips/apb_uart-pulpinov1/slib_input_sync.vhd
+pulpino-master/ips/apb_uart-pulpinov1/slib_mv_filter.vhd
+pulpino-master/ips/apb_uart-pulpinov1/uart_baudgen.vhd
+pulpino-master/ips/apb_uart-pulpinov1/uart_interrupt.vhd
+pulpino-master/ips/apb_uart-pulpinov1/uart_receiver.vhd
+pulpino-master/ips/apb_uart-pulpinov1/uart_transmitter.vhd
+pulpino-master/ips/apb_uart-pulpinov1/apb_uart.vhd

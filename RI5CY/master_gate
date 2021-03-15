@@ -1,0 +1,191 @@
+-caxl
++speedup
++libext+.v+
+${RTL_PATH}/components/pulp_clock_gating.sv      
+${RTL_PATH}/components/cluster_clock_inverter.sv 
+${RTL_PATH}/components/cluster_clock_mux2.sv     
+${RTL_PATH}/components/pulp_clock_inverter.sv    
+${RTL_PATH}/components/pulp_clock_mux2.sv        
+${RTL_PATH}/components/generic_fifo.sv           
+${RTL_PATH}/components/rstgen.sv                 
+${RTL_PATH}/components/sp_ram.sv                 
+pulpino-master/vsim/vcompile/gscl45nm_ajay.v
+
+# files depending on RISCV vs. OR1K
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/core_region.sv       
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/random_stalls.sv     
+
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/boot_rom_wrap.sv     
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/boot_code.sv         
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/instr_ram_wrap.sv    
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/sp_ram_wrap.sv       
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/ram_mux.sv           
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/axi_node_intf_wrap.sv
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/pulpino_top.sv       
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/peripherals.sv       
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/periph_bus_wrap.sv   
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/axi2apb_wrap.sv      
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/axi_spi_slave_wrap.sv
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/axi_mem_if_SP_wrap.sv
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/clk_rst_gen.sv       
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/axi_slice_wrap.sv    
++incdir+${RTL_PATH}/includes +define+RISCV ${RTL_PATH}/core2axi_wrap.sv     
++incdir+${TB_PATH}                                                ${TB_PATH}/pkg_spi.sv          
++incdir+${TB_PATH}                                                ${TB_PATH}/if_spi_slave.sv     
++incdir+${TB_PATH}                                                ${TB_PATH}/if_spi_master.sv    
++incdir+${TB_PATH}                                                ${TB_PATH}/uart.sv             
++incdir+${TB_PATH}                                                ${TB_PATH}/i2c_eeprom_model.sv 
++incdir+${TB_PATH} +incdir+${RTL_PATH}/includes/                  ${TB_PATH}/tb.sv               
+
+
+#RISCV CORE addition
+<Netlist>
+
+## Added components
+pulpino-master/ips/apb2per-pulpinov1/apb2per.sv
++incdir+pulpino-master/ips/apb_event_unit-pulpinov1/include pulpino-master/ips/apb_event_unit-pulpinov1/apb_event_unit.sv
++incdir+pulpino-master/ips/apb_event_unit-pulpinov1/include pulpino-master/ips/apb_event_unit-pulpinov1/generic_service_unit.sv
++incdir+pulpino-master/ips/apb_event_unit-pulpinov1/include pulpino-master/ips/apb_event_unit-pulpinov1/sleep_unit.sv
+pulpino-master/ips/apb_fll_if-pulpinov1/apb_fll_if.sv
+pulpino-master/ips/apb_gpio-pulpinov1/apb_gpio.sv
++incdir+pulpino-master/ips/apb_i2c-pulpinov1 pulpino-master/ips/apb_i2c-pulpinov1/apb_i2c.sv
++incdir+pulpino-master/ips/apb_i2c-pulpinov1 pulpino-master/ips/apb_i2c-pulpinov1/i2c_master_bit_ctrl.sv
++incdir+pulpino-master/ips/apb_i2c-pulpinov1 pulpino-master/ips/apb_i2c-pulpinov1/i2c_master_byte_ctrl.sv
++incdir+pulpino-master/ips/apb_i2c-pulpinov1 pulpino-master/ips/apb_i2c-pulpinov1/i2c_master_defines.sv
+pulpino-master/ips/apb_node-pulpinov1/apb_node.sv
+pulpino-master/ips/apb_node-pulpinov1/apb_node_wrap.sv
+pulpino-master/ips/apb_pulpino-pulpinov1/apb_pulpino.sv
+pulpino-master/ips/apb_spi_master-pulpinov1/apb_spi_master.sv
+pulpino-master/ips/apb_spi_master-pulpinov1/spi_master_apb_if.sv
+pulpino-master/ips/apb_timer-pulpinov1/apb_timer.sv
+pulpino-master/ips/apb_timer-pulpinov1/timer.sv
+pulpino-master/ips/apb_uart_sv-pulpinov1/apb_uart.sv
+pulpino-master/ips/apb_uart_sv-pulpinov1/io_generic_fifo.sv
+pulpino-master/ips/apb_uart_sv-pulpinov1/uart_interrupt.sv
+pulpino-master/ips/apb_uart_sv-pulpinov1/uart_rx.sv
+pulpino-master/ips/apb_uart_sv-pulpinov1/uart_tx.sv
+pulpino-master/ips/axi2apb-pulpinov1/axi2apb32.sv
+pulpino-master/ips/axi2apb-pulpinov1/AXI_2_APB_32.sv
+pulpino-master/ips/axi2apb-pulpinov1/axi2apb.sv
+pulpino-master/ips/axi2apb-pulpinov1/AXI_2_APB.sv
+pulpino-master/ips/axi_mem_if_DP-pulpinov1/axi_mem_if_DP_hybr.sv
+pulpino-master/ips/axi_mem_if_DP-pulpinov1/axi_mem_if_DP.sv
+#pulpino-master/ips/axi_mem_if_DP-pulpinov1/axi_mem_if_MP_Hybrid_multi_bank.sv
+#pulpino-master/ips/axi_mem_if_DP-pulpinov1/axi_mem_if_multi_bank.sv
+pulpino-master/ips/axi_mem_if_DP-pulpinov1/axi_mem_if_SP.sv
+pulpino-master/ips/axi_mem_if_DP-pulpinov1/axi_read_only_ctrl.sv
+pulpino-master/ips/axi_mem_if_DP-pulpinov1/axi_write_only_ctrl.sv
+#pulpino-master/ips/axi_mem_if_DP-pulpinov1/tb_axi_DP.sv
+#pulpino-master/ips/axi_mem_if_DP-pulpinov1/tb_axi_read_only.sv
+#pulpino-master/ips/axi_mem_if_DP-pulpinov1/tb_axi_write_only.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/apb_regs_top.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_address_decoder_AR.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_address_decoder_AW.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_address_decoder_BR.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_address_decoder_BW.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_address_decoder_DW.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_AR_allocator.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_ArbitrationTree.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_AW_allocator.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_BR_allocator.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_BW_allocator.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_DW_allocator.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_FanInPrimitive_Req.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_multiplexer.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_node.sv
+#+incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_node_wrap.sv
+#+incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_node_wrap_with_slices.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_regs_top.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_request_block.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_response_block.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/axi_RR_Flag_Req.sv
++incdir+pulpino-master/ips/axi_node-pulpinov1 pulpino-master/ips/axi_node-pulpinov1/defines.v
+pulpino-master/ips/axi_slice_dc-pulpinov1/axi_slice_dc_master.sv
+pulpino-master/ips/axi_slice_dc-pulpinov1/axi_slice_dc_slave.sv
+pulpino-master/ips/axi_slice_dc-pulpinov1/dc_data_buffer.v
+pulpino-master/ips/axi_slice_dc-pulpinov1/dc_full_detector.v
+pulpino-master/ips/axi_slice_dc-pulpinov1/dc_synchronizer.v
+pulpino-master/ips/axi_slice_dc-pulpinov1/dc_token_ring_fifo_din.v
+pulpino-master/ips/axi_slice_dc-pulpinov1/dc_token_ring_fifo_dout.v
+pulpino-master/ips/axi_slice_dc-pulpinov1/dc_token_ring.v
+pulpino-master/ips/axi_slice-pulpinov1/axi_ar_buffer.sv
+pulpino-master/ips/axi_slice-pulpinov1/axi_aw_buffer.sv
+pulpino-master/ips/axi_slice-pulpinov1/axi_b_buffer.sv
+pulpino-master/ips/axi_slice-pulpinov1/axi_buffer.sv
+pulpino-master/ips/axi_slice-pulpinov1/axi_r_buffer.sv
+pulpino-master/ips/axi_slice-pulpinov1/axi_slice.sv
+pulpino-master/ips/axi_slice-pulpinov1/axi_w_buffer.sv
+pulpino-master/ips/axi_spi_master-pulpinov1/axi_spi_master.sv
+pulpino-master/ips/axi_spi_master-pulpinov1/spi_master_axi_if.sv
+pulpino-master/ips/axi_spi_master-pulpinov1/spi_master_clkgen.sv
+pulpino-master/ips/axi_spi_master-pulpinov1/spi_master_controller.sv
+pulpino-master/ips/axi_spi_master-pulpinov1/spi_master_fifo.sv
+pulpino-master/ips/axi_spi_master-pulpinov1/spi_master_rx.sv
+pulpino-master/ips/axi_spi_master-pulpinov1/spi_master_tx.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/axi_spi_slave.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/spi_slave_axi_plug.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/spi_slave_cmd_parser.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/spi_slave_controller.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/spi_slave_dc_fifo.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/spi_slave_regs.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/spi_slave_rx.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/spi_slave_syncro.sv
+pulpino-master/ips/axi_spi_slave-pulpinov1/spi_slave_tx.sv
+pulpino-master/ips/core2axi-pulpinov1/core2axi.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_axi_biu.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_axi_defines.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_axi_module.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_axionly_top.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_crc32.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_defines.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_lint_biu.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_lint_defines.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_lint_module.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_lintonly_top.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_or1k_biu.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_or1k_defines.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_or1k_module.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_or1k_status_reg.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_tap_defines.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_tap_top.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adbg_top.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/adv_dbg_if.sv
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/bytefifo.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/syncflop.v
++incdir+pulpino-master/ips/adv_dbg_if-pulpinov1/rtl pulpino-master/ips/adv_dbg_if-pulpinov1/rtl/syncreg.v
+pulpino-master/ips/apb_event_unit-pulpinov1/include/defines_event_unit.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_div_sqrt_tp_nlp/fpu_defs_div_sqrt_tp.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_defs.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/fpu_defs_fmac.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_div_sqrt_tp_nlp/control_tp.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_div_sqrt_tp_nlp/div_sqrt_top_tp.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_div_sqrt_tp_nlp/fpu_norm_div_sqrt.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt_first.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_div_sqrt_tp_nlp/iteration_div_sqrt.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_div_sqrt_tp_nlp/nrbd_nrsc_tp.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_div_sqrt_tp_nlp/preprocess.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/adders.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/aligner.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/booth_encoder.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/booth_selector.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/CSA.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/fmac.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/fpu_norm_fmac.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/LZA.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/pp_generation.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/preprocess_fmac.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_fmac/wallace.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_utils/fpu_ff.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/defines_fpu.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpexc.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fp_fma_wrapper.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_add.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_core.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_ftoi.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_itof.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_mult.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_norm.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_private.sv
+##pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu_shared.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/fpu.sv
+#pulpino-master/ips/fpu-pulpinov1/hdl/fpu_v0.1/riscv_fpu.sv
