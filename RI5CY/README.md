@@ -8,8 +8,7 @@ Website : [https://github.com/openhwgroup/cv32e40p/tree/pulpissimo-v2.0.0]
 
 Simualtion:
 ----------
-RTL/Gate-Level simulation of the core is done using the pulpino platform testbenches and benchmark were
-chosen from the pulpino test suites.
+RTL/Gate-Level simulation of the core is done using the pulpino platform testbenches and benchmark were chosen from the pulpino test suites.
 Repo : https://github.com/pulp-platform/pulpino.git
 
 The benchmarks were compiled to generate the executable as well the disassembled code. Script 'write_stim_file_upd.pl' can be used to convert the disassembled code to a hexadecimal stimulus for the simualtion. If the compressed code generation is enabled, it handles the merging required to be compliant with the endianness of the RI5CY core.
@@ -22,8 +21,8 @@ Power analysis: Time based power analysis can be done using ptpx.tcl.
 
 Feature extraction:
 ------------------
-The feature extraction from the VCD can be done using the Cadence Simvision. Sample svcf files to load the required signals corresponding to the features are added to the svcfs directory; these signals can then be exported to csvs. The csv file can then be postprocessed to make the splits and compute hamming and appended with the power trace from the power analysis. 
+The feature extraction from the VCD can be done using the Cadence Simvision. Sample svcf files to load the required signals corresponding to the features are added to the svcfs directory. These signals can then be exported to csvs, which can then be postprocessed to make the splits and compute hamming and appended with the power trace from the power analysis. 
 
 Power modeling:
 --------------
-The features used for the modeling the different blocks are added to the used_signals directory. Script '' captures the generic flow of power model generation and validation. 
+The features used for the modeling the different blocks are added to the used_signals files. Script 'regression_model.py' captures the generic flow of power model generation and validation. 
